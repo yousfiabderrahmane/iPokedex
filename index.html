@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/favicons/1665837349169.png" />
+  </head>
+  <body>
+    <main>
+      <img src="#" alt="pokemon" class="pokemon_image" />
+      <h1 class="pokemon_data">
+        <span class="pokemon_number"></span> -
+        <span class="pokemon_name"></span>
+      </h1>
+      <form class="form">
+        <input
+          type="search"
+          class="input_search"
+          placeholder="Name or Number"
+          required
+        />
+      </form>
+      <div class="buttons">
+        <button class="button disabled btn-prev">Prev <</button>
+        <button class="button btn-next">Next ></button>
+      </div>
+      <img src="/img/1665837305524.png" alt="pokedex" class="pokedex" />
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
