@@ -113,6 +113,6 @@ main {
 
 @media (max-width: 500px) {
   main {
-    margin-top: 150px;
+    animation: unset;
   }
 }
