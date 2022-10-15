@@ -27,6 +27,10 @@ main {
   transform: translate(-63%, 20%);
   height: 15%;
 }
+.grow {
+  height: 22%;
+  bottom: 52%;
+}
 .pokemon_data {
   position: absolute;
   font-weight: 600;
@@ -75,6 +79,11 @@ main {
   color: white;
   background-color: #444;
   box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+  cursor: pointer;
+}
+.disabled {
+  filter: brightness(50%);
+  cursor: unset;
 }
 .button:active {
   box-shadow: inset -4px 4px 0 #222;
