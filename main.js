@@ -44,6 +44,10 @@ const renderPokemon = async (pokemon) => {
     } else {
       buttonPrev.classList.add("disabled");
     }
+
+    if (data.id >= 649) {
+      pokemonImage.classList.add("grow");
+    }
     input.value = "";
   } else {
     pokemonImage.style.display = "none";
